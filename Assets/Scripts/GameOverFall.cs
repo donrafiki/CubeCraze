@@ -10,7 +10,7 @@ public class GameOverFall : MonoBehaviour
     {
         if (transform.position.y < -80)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(4);
         }
     }
 }

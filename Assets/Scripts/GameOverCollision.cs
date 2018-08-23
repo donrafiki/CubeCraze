@@ -7,8 +7,7 @@ public class GameOverCollision : MonoBehaviour {
     {
         if (other.gameObject.tag == "ObstacleB")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(4);
         }
 	}
-	
 }

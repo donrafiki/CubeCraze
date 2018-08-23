@@ -10,7 +10,7 @@ public class YouWin : MonoBehaviour
     {
         if (transform.position.z > 610 && transform.position.z < 620 && transform.position.y > -1 && transform.position.x > -20 && transform.position.x < 20)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(5);
         }
     }
 }
