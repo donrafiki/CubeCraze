@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2013029309}
-  SpeedDownForce: -200000
+  SpeedDownForce: -350000
 --- !u!114 &2013029318
 MonoBehaviour:
   m_ObjectHideFlags: 0
