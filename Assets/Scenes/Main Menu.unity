@@ -739,6 +739,7 @@ GameObject:
   - component: {fileID: 627220636}
   - component: {fileID: 627220635}
   - component: {fileID: 627220634}
+  - component: {fileID: 627220637}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -803,12 +804,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 627220637}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -849,6 +850,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 627220632}
+--- !u!114 &627220637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627220632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882629e7287fd49a099e3f026645aae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &721460699
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +1000,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 943565491}
-        m_MethodName: ChangeScenePlay
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1041,7 +1053,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 943565486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15aec61e38a394fb395856990876cefc, type: 3}
+  m_Script: {fileID: 11500000, guid: 882629e7287fd49a099e3f026645aae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2001515374
